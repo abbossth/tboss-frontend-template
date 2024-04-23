@@ -245,3 +245,44 @@
 .tb-role-box-image {
   height: 150px;
 }
+
+/* ==== Verify Email ===== */
+.tb-verify-email {
+  background-color: var(--main-color);
+  height: calc(100vh - 79px);
+  padding-top: 4rem;
+}
+
+.tb-verify-email-container {
+  max-width: 400px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 3rem 2rem 1rem 2rem;
+  align-content: center;
+  text-align: center;
+}
+
+.tb-verify-email-image-container {
+  margin-bottom: 0.5rem;
+}
+
+.tb-verify-email-image {
+  width: 180px;
+}
+
+.tb-verify-email-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+}
+
+.tb-verify-email-description {
+  margin-bottom: 2rem;
+}
+
+.tb-verify-email-link {
+  text-decoration: none;
+  font-size: 16px;
+}
