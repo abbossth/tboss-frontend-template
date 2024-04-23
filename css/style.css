@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #17538a;
+  --light-grey: #f2f1f1;
+}
+
+/* HEADER */
+.tb-header {
+  /* border: 1px solid red; */
+}
+
+.tb-navbar {
+  /* border: 1px solid red; */
+}
+
+.tb-logo {
+  width: 200px;
+  /* border: 1px solid red; */
+}
+
+.tb-header-buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tb-header-button {
+  margin-left: 1rem;
+}
+
+/* ======= MAIN HOME ======= */
+
+.tb-banner {
+  padding-top: 80px;
+}
+
+.tb-banner-text-container {
+  max-width: 580px;
+}
+
+.tb-banner-text-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 1rem;
+}
+
+.tb-banner-text-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 2rem;
+}
+
+.tb-banner-text-buttons-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.tb-banner-text-button {
+  /* border: 1px solid red; */
+  border-radius: 15px;
+  padding: 1rem 2rem 1rem 2rem;
+  box-shadow: 3px 6px 4px 0px #00000077;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.tb-banner-text-button:hover {
+  box-shadow: 3px 6px 4px 1px #000000c1;
+}
+
+.tb-banner-text-button-teacher {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.tb-banner-text-button-student {
+  background-color: var(--light-grey);
+  color: var(--main-color);
+}
+
+.tb-banner-text-button-top {
+  font-size: 12px;
+}
+
+.tb-banner-text-button-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tb-banner-image {
+  max-width: 500px;
+}

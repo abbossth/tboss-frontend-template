@@ -10,11 +10,102 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    <div class="tb-layout">
-      <p>Hello</p>
-    </div>
+    <header class="tb-header">
+      <nav class="tb-navbar navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img
+              class="tb-logo"
+              src="./images/tb-logo-main-page.png"
+              alt="tb-logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-3">
+              <li class="nav-item px-3">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Plans</a
+                >
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+            </ul>
+            <div class="tb-header-buttons-container">
+              <button
+                class="btn btn-outline-primary tb-header-button"
+                type="button"
+              >
+                Enter code
+              </button>
+              <button class="btn btn-secondary tb-header-button" type="button">
+                Login
+              </button>
+              <button class="btn btn-primary tb-header-button" type="button">
+                Sign up
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="tb-banner">
+        <div class="container tb-banner-container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="tb-banner-text-container">
+                <div class="tb-banner-text-title">
+                  Plan fast, enjoy weekends.
+                </div>
+                <div class="tb-banner-text-description">
+                  Empower your learning journey with AI-enhanced instruction,
+                  tailored for every student's success.
+                </div>
+                <div class="tb-banner-text-buttons-container">
+                  <div
+                    class="tb-banner-text-button tb-banner-text-button-teacher"
+                  >
+                    <div class="tb-banner-text-button-top">TEACHERS</div>
+                    <div class="tb-banner-text-button-title">Create quiz ></div>
+                  </div>
+                  <div
+                    class="tb-banner-text-button tb-banner-text-button-student"
+                  >
+                    <div class="tb-banner-text-button-top">STUDENTS</div>
+                    <div class="tb-banner-text-button-title">Find Quiz ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="tb-banner-image-container">
+                <img
+                  class="tb-banner-image"
+                  src="./images/banner-image.png"
+                  alt="banner-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

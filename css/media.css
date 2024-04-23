@@ -1,0 +1,22 @@
+/* Extra small devices (phones) */
+@media (max-width: 576px) {
+}
+
+/* Small devices (tablets) */
+@media (max-width: 768px) {
+}
+
+/* Medium size devices (Small laptops) */
+@media (max-width: 990px) {
+  .tb-header-buttons-container {
+    display: block;
+  }
+}
+
+/* Large devices (Laptops) */
+@media (max-width: 1200px) {
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+}
