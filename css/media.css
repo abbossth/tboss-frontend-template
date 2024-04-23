@@ -7,6 +7,10 @@
   .tb-banner-text-container {
     margin-bottom: 5rem;
   }
+
+  .tb-role-selection {
+    height: fit-content;
+  }
 }
 
 /* Medium size devices (Small laptops) */
