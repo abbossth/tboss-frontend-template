@@ -286,3 +286,65 @@
   text-decoration: none;
   font-size: 16px;
 }
+
+/* ========== JOIN ======= */
+.tb-join {
+  background-color: var(--main-color);
+  height: calc(100vh - 79px);
+  padding-top: 10rem;
+}
+
+.tb-join-container {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tb-join-form {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.tb-join-form-input {
+  border: none;
+  margin-right: 0.5rem;
+  font-size: 24px;
+}
+
+.tb-join-form-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.tb-join-form-button {
+  width: 150px;
+  box-shadow: 2px 2px 2px #939393;
+  font-size: 24px;
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+}
+
+.tb-join-form-button:focus {
+  box-shadow: 3px 3px 3px #939393 !important;
+}
+
+.tb-join-error-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem;
+  align-content: center;
+  text-align: center;
+  background: rgb(198, 88, 88);
+}
+
+.tb-join-error-message {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
