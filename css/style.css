@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.2s linear;
 }
 
 :root {
@@ -95,4 +96,87 @@
 
 .tb-banner-image {
   max-width: 500px;
+}
+
+/* ==== SIGN UP AND LOGIN */
+.tb-signup {
+  background-color: var(--main-color);
+  height: calc(100vh - 79px);
+  padding-top: 3rem;
+}
+
+.tb-signup-container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.tb-signup-form-container {
+  padding: 2rem 3rem;
+}
+
+.tb-signup-form-title {
+  font-size: 22px;
+  margin-bottom: 1.5rem;
+}
+
+.tb-signup-form {
+  margin-bottom: 1.5rem;
+}
+
+.tb-signup-forgot-password {
+  text-decoration: none;
+  font-size: 12px;
+  color: #4d72f8;
+}
+
+.tb-signup-or-line-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.tb-signup-or-line {
+  width: 40%;
+  height: 1px;
+  background-color: #909090;
+}
+
+.tb-signup-with-google-btn {
+  border: 1px solid #909090;
+  padding: 0.35rem 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tb-signup-with-google-btn:active {
+  background-color: #444;
+  color: #fff;
+}
+
+.tb-signup-with-google-btn:active .tb-signup-with-google-btn-title {
+  color: #fff;
+}
+
+.tb-signup-with-google-btn-logo {
+  display: flex;
+}
+
+.tb-signup-with-google-btn-logo-image {
+  width: 24px;
+  margin-right: 1.5rem;
+}
+
+.tb-signup-to-login-container {
+  margin-top: 3rem;
+}
+
+.tb-signup-to-login-title {
+  text-align: center;
 }

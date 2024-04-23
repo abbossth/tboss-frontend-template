@@ -4,12 +4,18 @@
 
 /* Small devices (tablets) */
 @media (max-width: 768px) {
+  .tb-banner-text-container {
+    margin-bottom: 5rem;
+  }
 }
 
 /* Medium size devices (Small laptops) */
 @media (max-width: 990px) {
   .tb-header-buttons-container {
     display: block;
+  }
+  .tb-signup-image-container-display-none {
+    display: none;
   }
 }
 
