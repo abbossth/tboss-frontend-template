@@ -1,5 +1,28 @@
-/* Extra small devices (phones) */
-@media (max-width: 576px) {
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+}
+
+/* Large devices (Laptops) */
+@media (max-width: 1200px) {
+}
+
+/* Medium size devices (Small laptops) */
+@media (max-width: 990px) {
+  .tb-header-buttons-container {
+    display: block;
+  }
+  .tb-signup-image-container-display-none {
+    display: none;
+  }
+
+  .tb-question-title {
+    font-size: 28px;
+  }
+
+  .tb-time-left-clock,
+  .tb-time-left-title {
+    font-size: 24px;
+  }
 }
 
 /* Small devices (tablets) */
@@ -27,22 +50,18 @@
   .tb-pre-join-container {
     padding: 2rem 1.5rem;
   }
-}
-
-/* Medium size devices (Small laptops) */
-@media (max-width: 990px) {
-  .tb-header-buttons-container {
-    display: block;
+  .tb-question-title {
+    font-size: 24px;
   }
-  .tb-signup-image-container-display-none {
-    display: none;
+  .tb-time-left-clock,
+  .tb-time-left-title {
+    font-size: 20px;
   }
 }
 
-/* Large devices (Laptops) */
-@media (max-width: 1200px) {
-}
-
-/* Extra large devices (large desktops) */
-@media (min-width: 1200px) {
+/* Extra small devices (phones) */
+@media (max-width: 576px) {
+  .tb-question-title {
+    font-size: 20px;
+  }
 }
