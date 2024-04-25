@@ -2,12 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all 0.2s linear;
+  transition: all 0.1s linear;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #555;
 }
 
 :root {
   --main-color: #17538a;
   --light-grey: #f2f1f1;
+  --results-bg: rgba(253, 253, 253, 0.7);
 }
 
 /* HEADER */
@@ -631,4 +646,208 @@
 .tb-header-button-code {
   background-color: var(--main-color);
   margin-left: 1rem;
+}
+
+/* =========== QUIZ RESULTS ============== */
+.tb-quiz-results {
+  background-color: var(--main-color);
+  padding: 0.5rem;
+  padding-top: 5vh;
+}
+
+.tb-quiz-results-container {
+  background-color: var(--results-bg);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+}
+
+.tb-quiz-results-title {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.tb-quiz-results-user {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.tb-quiz-results-user-image-container {
+  padding: 2rem;
+  margin-right: 1.5rem;
+  background-color: #747474;
+  border-radius: 50%;
+}
+
+.tb-quiz-results-user-name {
+  font-size: 24px;
+}
+
+.tb-quiz-results-accuracy {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.tb-quiz-results-accuracy-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.tb-quiz-results-correctness {
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+}
+
+.tb-quiz-results-correctness-box {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.tb-quiz-results-correctness-box-green {
+  background-color: green;
+  color: #fff;
+}
+
+.tb-quiz-results-correctness-box-red {
+  background-color: red;
+  color: #fff;
+}
+
+.tb-quiz-results-button {
+  width: 100%;
+  padding: 0 2rem;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 15px;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: var(--main-color);
+}
+
+.tb-quiz-results-button-btn {
+  padding: 1.2rem;
+  border-radius: 10px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.tb-quiz-results-tabs {
+  width: 100%;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+
+.tb-quiz-results-tabs-container {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 15px;
+  color: #fff;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--main-color);
+}
+
+.nav-link {
+  color: var(--main-color);
+}
+
+.tb-quiz-review {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.tb-quiz-review-title {
+  margin-bottom: 1.5rem;
+}
+
+.tb-quiz-review-question {
+  background-color: #0b424e;
+  color: #fff;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.tb-quiz-review-question-line {
+  width: 100%;
+  margin: 1rem 0;
+  height: 1px;
+  background-color: #fff;
+}
+
+.tb-quiz-review-question-title {
+  font-size: 18px;
+}
+
+.tb-quiz-review-answer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.tb-quiz-review-answer-symbol {
+  margin-right: 1.5rem;
+}
+
+.tb-color-green {
+  color: rgb(12, 254, 12);
+}
+
+.tb-color-red {
+  color: rgb(253, 51, 44);
+}
+
+.tb-notif-btn-wrapper {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.tb-notif-btn {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.tb-badge {
+  position: absolute;
+  top: 0.2rem !important;
+  right: 0.2rem;
+  padding: 0.38em 0.4em;
 }
