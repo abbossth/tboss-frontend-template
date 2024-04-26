@@ -830,6 +830,8 @@ html::-webkit-scrollbar-thumb {
   color: rgb(253, 51, 44);
 }
 
+/* ======== ADMIN HOME ==========  */
+
 .tb-notif-btn-wrapper {
   position: relative;
   width: 2.5rem;
@@ -850,4 +852,99 @@ html::-webkit-scrollbar-thumb {
   top: 0.2rem !important;
   right: 0.2rem;
   padding: 0.38em 0.4em;
+}
+
+.tb-card-category {
+  width: fit-content;
+  background-color: #f6e5a6;
+  padding: 0.1rem 0.35rem;
+  border-radius: 15px;
+  /* color: #fff; */
+  margin-bottom: 1rem;
+}
+
+.tb-card-title {
+  line-height: 150%;
+}
+
+.tb-form-select {
+  width: 200px;
+}
+
+/* ===== Library ====== */
+
+.nav-align-top > .tab-content {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 1.5rem 0;
+}
+
+.nav-align-top > .tab-content {
+  box-shadow: none;
+}
+
+.nav-align-top .nav-tabs ~ .tab-content {
+  box-shadow: none;
+}
+
+.tb-card-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tb-card-three-dots {
+  cursor: pointer;
+}
+
+.btn-icon {
+  font-size: 24px;
+}
+
+/* ====== QUIZ ==== */
+.tb-quiz-question-container {
+  padding: 1.2rem;
+}
+
+.tb-quiz-question-row-between {
+  margin-bottom: 1rem;
+}
+
+.tb-quiz-question-type {
+  font-weight: bold;
+}
+
+.tb-quiz-question-time {
+  border-radius: 5px;
+  padding: 0.15rem 0.25rem;
+  border: 1px solid #ccc;
+}
+
+.tb-quiz-question-title {
+  font-size: 18px;
+}
+
+.tb-quiz-question-line {
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+  margin: 1rem 0;
+}
+
+.tb-quiz-question-option {
+  display: flex;
+  align-items: center;
+}
+
+.tb-quiz-question-buttons-container {
+  display: flex;
+}
+
+.tb-quiz-question-button {
+  margin-right: 0.5rem;
+  display: none;
+}
+
+.tb-quiz-question-container:hover .tb-quiz-question-button {
+  display: block;
 }

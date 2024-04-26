@@ -30,23 +30,18 @@
   .tb-banner-text-container {
     margin-bottom: 5rem;
   }
-
   .tb-role-selection {
     height: fit-content;
   }
-
   .tb-pre-join-form-input {
     font-size: 18px;
   }
-
   .tb-pre-join-container {
     width: 95%;
   }
-
   .tb-pre-join-form-button-start {
     width: 18px;
   }
-
   .tb-pre-join-container {
     padding: 2rem 1.5rem;
   }
@@ -57,6 +52,9 @@
   .tb-time-left-title {
     font-size: 20px;
   }
+  .tb-form-select {
+    width: 100px;
+  }
 }
 
 /* Extra small devices (phones) */
@@ -65,3 +63,4 @@
     font-size: 20px;
   }
 }
+

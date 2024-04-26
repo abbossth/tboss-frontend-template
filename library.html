@@ -71,13 +71,13 @@
           </div> -->
 
           <ul class="menu-inner py-2">
-            <li class="menu-item active">
+            <li class="menu-item">
               <a href="admin-home.html" class="menu-link">
                 <i class="fa-solid fa-earth-americas menu-icon"></i>
                 <div data-i18n="Analytics">Explore</div>
               </a>
             </li>
-            <li class="menu-item">
+            <li class="menu-item active">
               <a href="library.html" class="menu-link">
                 <i class="fa-solid fa-book menu-icon"></i>
                 <div data-i18n="Analytics">Library</div>
@@ -217,218 +217,174 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <div class="row">
-                <div class="col-lg-7 col-6 mb-4 order-0">
-                  <div class="card">
-                    <div class="d-flex align-items-end row">
-                      <div class="col-sm-12 col-12">
-                        <div class="card-body">
-                          <h5 class="card-title text-primary">
-                            Welcome, John! 🎉
-                          </h5>
-                          <p class="mb-3">
-                            Do you have
-                            <span class="fw-bold">quiz code</span> already?
-                          </p>
-
-                          <a
-                            href="javascript:;"
-                            class="btn btn-outline-danger mb-1"
-                            >Enter code</a
-                          >
-                        </div>
-                      </div>
-                      <div class="col-sm-5 text-center text-sm-left d-none">
-                        <div class="card-body pb-0 px-0 px-md-4">
-                          <img
-                            src="./assets/img/illustrations/man-with-laptop-light.png"
-                            height="140"
-                            alt="View Badge User"
-                            data-app-dark-img="illustrations/man-with-laptop-dark.png"
-                            data-app-light-img="illustrations/man-with-laptop-light.png"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-5 col-6 order-1">
-                  <div class="card mb-3">
-                    <div class="card-body">
-                      <h5 class="card-title">Hi, Teachers!</h5>
-                      <p class="card-text">What do you want to teach today?</p>
-                      <a
-                        href="javascript:void(0)"
-                        class="btn btn-outline-primary"
-                        >Create quiz</a
+              <div class="col-xl-10 px-3">
+                <h6 class="text-muted">My Library</h6>
+                <div class="nav-align-top mb-4">
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                      <button
+                        type="button"
+                        class="nav-link active"
+                        role="tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#navs-top-home"
+                        aria-controls="navs-top-home"
+                        aria-selected="true"
                       >
+                        Published
+                      </button>
+                    </li>
+                    <li class="nav-item">
+                      <button
+                        type="button"
+                        class="nav-link"
+                        role="tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#navs-top-profile"
+                        aria-controls="navs-top-profile"
+                        aria-selected="false"
+                      >
+                        Draft
+                      </button>
+                    </li>
+                  </ul>
+                  <div class="tab-content">
+                    <div
+                      class="tab-pane fade show active"
+                      id="navs-top-home"
+                      role="tabpanel"
+                    >
+                      <div class="col-xl-10">
+                        <div class="card mb-3">
+                          <div class="row g-0">
+                            <div class="col-md-3">
+                              <img
+                                class="card-img card-img-left"
+                                src="../assets/img/elements/12.jpg"
+                                alt="Card image"
+                              />
+                            </div>
+                            <div class="col-md-9">
+                              <div class="card-body">
+                                <div class="tb-card-row">
+                                  <div class="tb-card-category">Math</div>
+                                  <div class="btn-group">
+                                    <button
+                                      type="button"
+                                      class="btn btn-icon rounded-pill dropdown-toggle hide-arrow"
+                                      data-bs-toggle="dropdown"
+                                      aria-expanded="false"
+                                    >
+                                      <i
+                                        class="bx bx-dots-vertical-rounded"
+                                      ></i>
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                      <li>
+                                        <a
+                                          class="dropdown-item"
+                                          href="quiz.html"
+                                          >View</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          >Update</a
+                                        >
+                                      </li>
+                                      <li>
+                                        <hr class="dropdown-divider" />
+                                      </li>
+                                      <li>
+                                        <a
+                                          class="dropdown-item"
+                                          href="javascript:void(0);"
+                                          >Delete</a
+                                        >
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <h5 class="card-title">Number of equations</h5>
+                                <p class="card-text tb-card-text">
+                                  <span class="me-1"> 12 questions </span>
+                                  <svg
+                                    class="me-1"
+                                    width="3"
+                                    height="3"
+                                    viewBox="0 0 3 3"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <circle
+                                      cx="1.5"
+                                      cy="1.5"
+                                      r="1.5"
+                                      fill="#6D6666"
+                                    />
+                                  </svg>
+                                  <span class="me-1"> 4 minutes </span>
+                                  <svg
+                                    class="me-1"
+                                    width="3"
+                                    height="3"
+                                    viewBox="0 0 3 3"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <circle
+                                      cx="1.5"
+                                      cy="1.5"
+                                      r="1.5"
+                                      fill="#6D6666"
+                                    />
+                                  </svg>
+                                  <span class="me-1"> 10.5k Plays </span>
+                                </p>
+                                <div class="tb-card-row">
+                                  <p class="card-text">
+                                    <small class="text-muted"
+                                      >Last updated 3 mins ago</small
+                                    >
+                                  </p>
+                                  <div class="tb-card-row-buttons">
+                                    <button
+                                      type="button"
+                                      class="btn btn-secondary btn-sm tb-card-row-btn"
+                                    >
+                                      Share
+                                    </button>
+                                    <button
+                                      type="button"
+                                      class="btn btn-primary btn-sm tb-card-row-btn"
+                                    >
+                                      Play
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Grid Card -->
-              <h6 class="pb-1 mb-4 text-muted">Quizzes</h6>
-              <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
-                <div class="col-md-4 col-sm-6 col-12">
-                  <div class="card h-100">
-                    <img
-                      class="card-img-top"
-                      src="./images/orange-image.jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <div class="tb-card-category">Math</div>
-                      <h5 class="card-title tb-card-title">
-                        Equation Expedition: Journey Through Mathematical
-                        Marvels!
-                      </h5>
-                      <p class="card-text tb-card-text">
-                        <span class="me-1"> 12 questions </span>
-                        <svg
-                          class="me-1"
-                          width="3"
-                          height="3"
-                          viewBox="0 0 3 3"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="1.5" cy="1.5" r="1.5" fill="#6D6666" />
-                        </svg>
-                        <span class="me-1"> 4 minutes </span>
-                        <svg
-                          class="me-1"
-                          width="3"
-                          height="3"
-                          viewBox="0 0 3 3"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="1.5" cy="1.5" r="1.5" fill="#6D6666" />
-                        </svg>
-                        <span class="me-1"> 10.5k Plays </span>
+                    <div
+                      class="tab-pane fade"
+                      id="navs-top-profile"
+                      role="tabpanel"
+                    >
+                      <p>
+                        Donut dragée jelly pie halvah. Danish gingerbread bonbon
+                        cookie wafer candy oat cake ice cream. Gummies halvah
+                        tootsie roll muffin biscuit icing dessert gingerbread.
+                        Pastry ice cream cheesecake fruitcake.
                       </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-12">
-                  <div class="card h-100">
-                    <img
-                      class="card-img-top"
-                      src="./images/orange-image.jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <div class="tb-card-category">Math</div>
-                      <h5 class="card-title tb-card-title">
-                        Equation Expedition: Journey Through Mathematical
-                        Marvels!
-                      </h5>
-                      <p class="card-text tb-card-text">
-                        <span class="me-1"> 12 questions </span>
-                        <svg
-                          class="me-1"
-                          width="3"
-                          height="3"
-                          viewBox="0 0 3 3"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="1.5" cy="1.5" r="1.5" fill="#6D6666" />
-                        </svg>
-                        <span class="me-1"> 4 minutes </span>
-                        <svg
-                          class="me-1"
-                          width="3"
-                          height="3"
-                          viewBox="0 0 3 3"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="1.5" cy="1.5" r="1.5" fill="#6D6666" />
-                        </svg>
-                        <span class="me-1"> 10.5k Plays </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-12">
-                  <div class="card h-100">
-                    <img
-                      class="card-img-top"
-                      src="./images/orange-image.jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <div class="tb-card-category">Math</div>
-                      <h5 class="card-title tb-card-title">
-                        Equation Expedition: Journey Through Mathematical
-                        Marvels!
-                      </h5>
-                      <p class="card-text tb-card-text">
-                        <span class="me-1"> 12 questions </span>
-                        <svg
-                          class="me-1"
-                          width="3"
-                          height="3"
-                          viewBox="0 0 3 3"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="1.5" cy="1.5" r="1.5" fill="#6D6666" />
-                        </svg>
-                        <span class="me-1"> 4 minutes </span>
-                        <svg
-                          class="me-1"
-                          width="3"
-                          height="3"
-                          viewBox="0 0 3 3"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="1.5" cy="1.5" r="1.5" fill="#6D6666" />
-                        </svg>
-                        <span class="me-1"> 10.5k Plays </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-12">
-                  <div class="card h-100">
-                    <img
-                      class="card-img-top"
-                      src="./images/orange-image.jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <div class="tb-card-category">Math</div>
-                      <h5 class="card-title tb-card-title">
-                        Equation Expedition: Journey Through Mathematical
-                        Marvels!
-                      </h5>
-                      <p class="card-text tb-card-text">
-                        <span class="me-1"> 12 questions </span>
-                        <svg
-                          class="me-1"
-                          width="3"
-                          height="3"
-                          viewBox="0 0 3 3"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="1.5" cy="1.5" r="1.5" fill="#6D6666" />
-                        </svg>
-                        <span class="me-1"> 4 minutes </span>
-                        <svg
-                          class="me-1"
-                          width="3"
-                          height="3"
-                          viewBox="0 0 3 3"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="1.5" cy="1.5" r="1.5" fill="#6D6666" />
-                        </svg>
-                        <span class="me-1"> 10.5k Plays </span>
+                      <p class="mb-0">
+                        Jelly-o jelly beans icing pastry cake cake lemon drops.
+                        Muffin muffin pie tiramisu halvah cotton candy liquorice
+                        caramels.
                       </p>
                     </div>
                   </div>
@@ -442,6 +398,19 @@
               <div
                 class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column"
               >
+                <div class="mb-2 mb-md-0">
+                  ©
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  , made with ❤️ by
+                  <a
+                    href="https://themeselection.com"
+                    target="_blank"
+                    class="footer-link fw-bolder"
+                    >ThemeSelection</a
+                  >
+                </div>
                 <div>
                   <a
                     href="https://themeselection.com/license/"
